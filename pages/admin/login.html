@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Funkoshop</title>
+    <link rel="icon"  href="/img/branding/Logo.svg">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <header> <!-- Inicio Header -->
+        <nav class="navbar container">
+            <picture class="navbar__logo">
+                <a href="index.html">
+                <img id="logo" src="/img/branding/logo_light_horizontal.svg" alt="Logo">
+                </a>
+            </picture>
+            <a class="navbar__item_abrir" id="navbar__item_abrir"><iconify-icon icon="ic:outline-menu" width="40" height="30"></iconify-icon></a>
+            <ul class="navbar__menu" id="navbar__menu">
+                <a class="navbar__item_cerrar" id="navbar__item_cerrar"><iconify-icon icon="gg:close-r" width="22" height="22"></iconify-icon></a> 
+                <li class="navbar__item with-submenu"><a class="navbar__link" href="/pages/shop/shop.html">VER TIENDA</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="/pages/admin/admin.html">ADMIN</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="/index.html">SALIR</a></li>
+            </ul>
+        </nav>
+    </header> <!-- Fin Header -->
+
+<main class="container">
+    <article class="form___article">
+        <h1 class="titulo">Ingresar a mi cuenta</h1>
+        <form action=""  id="form">
+            <article class="form___datos">        
+                <section class="form___conjunto">
+                    <label for="email">Email:</label>
+                    <input class="form__subitem form__border" type="email" id="email" placeholder="jhondoe@correo.com">
+                </section>
+        
+                <section class="form___conjunto">
+                    <label for="contrasena1">Contraseña:</label>
+                    <input class="form__subitem form__border" type="password" id="contrasena1" placeholder="**********">
+                </section>
+            </article>
+        
+
+            <section class="form__contrasena">
+                <a href="#">Olvidé mi contraseña</a>  
+            </section> 
+            <article class="form__final">
+                <section>
+                    <input class="form__ingresarBotton" type="submit" value="Ingresar">
+                </section>   
+                <section class="form__recordarme">
+                    <input type="checkbox" value="tyc">
+                    <label>Recordarme</label>
+                </section>                 
+            </article>
+            <p class="warnings" id="warnings"></p>
+         </form>
+    </article>
+</main>
+    
+<footer> <!-- Inicio Footer -->
+    <nav class="navbar container">
+        <ul class="navbar__item">
+            <li><a class="navbar__link" href="pages/">SHOP</a></li>
+            <li><a class="navbar__link" href="pages/">REGISTRARSE</a></li>
+            <li><a class="navbar__link" href="pages/">INGRESAR</a></li>
+            <li><a class="navbar__link" href="pages/">CONTACTO</a></li>
+        </ul>
+        <picture class="footer__img">
+            <img src="/img/branding/Logo.svg" alt="Logo de la marca Funkoshop"> 
+        </picture>
+    </nav>
+    <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+</footer> <!-- Fin Footer -->
+    <script src="/js/register.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
